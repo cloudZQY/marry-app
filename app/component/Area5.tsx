@@ -3,6 +3,7 @@ import { SplitText } from "gsap/all";
 import { useEffect } from "react";
 
 export default function Area5() {
+    const { ScrollMagic } = window;
     useEffect(() => {
         const controller = new ScrollMagic.Controller();
 
