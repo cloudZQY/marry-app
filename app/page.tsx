@@ -2,6 +2,7 @@
 
 import loadScripts from 'load-scripts';
 import { useEffect, useState } from "react";
+import { loadFonts } from './common/font';
 import Area1 from './component/Area1';
 import Area2 from './component/Area2';
 import Area3 from './component/Area3';
@@ -19,10 +20,13 @@ export default function Home() {
 
   useEffect(() => {
     (async function () {
-      await loadScripts(
-        'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js',
-        'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js',
-      );
+      await Promise.all([
+        loadScripts(
+          'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js',
+        ),
+        loadFonts(),
+      ])
 
       await loadScripts(
         'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js',
