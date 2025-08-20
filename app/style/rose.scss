@@ -1,0 +1,21 @@
+/*
+ *   Copyright (c) 2025 
+ *   All rights reserved.
+ */
+.rose-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    pointer-events: none;
+}
+
+.dot{
+  width:4vw;
+  height:4vw;
+  position:absolute;
+  background: url(../assets/rose.png);
+  background-size: 100% 100%;
+}

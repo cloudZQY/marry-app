@@ -1,0 +1,55 @@
+body {
+    font-family: PingFang SC,Microsoft Yahei,Lato,Helvetica Neue,Arial,SimSun,Helvetica,STHeiTi,Roboto Regular,Roboto,Droid Sans,sans-serif;
+    letter-spacing: 0.2677vw;
+    font-size: 3.2vw;
+    -webkit-font-smoothing: antialiased;
+    line-height: 2;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.Aalinlansong {
+    &, & p {
+        font-family: 'Aalinlansong_1','Aalinlansong_2','Aalinlansong' !important;
+    }
+}
+
+.siyuansongtijixi {
+    &, & p {
+        font-family: 'siyuansongtijixi_1', 'siyuansongtijixi_2', 'siyuansongtijixi' !important;
+    }
+}
+
+.siyuansongtichanggui {
+    font-family: 'siyuansongtichanggui_1', 'siyuansongtichanggui_2', 'siyuansongtichanggui' !important;
+}
+
+.Cinzel-Regular {
+    font-family: 'Cinzel-Regular_1', 'Cinzel-Regular_2', 'Cinzel-Regular' !important;
+}
+
+
+.MAXWELL-Light {
+    &, & p {
+        font-family: 'MAXWELL-Light_1', 'MAXWELL-Light_2', 'MAXWELL-Light' !important;
+    }
+}
+
+.romance {
+    font-family: 'romance_1', 'romance_2', 'romance' !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.color-gray {
+    color: rgb(77, 47, 31)
+}
