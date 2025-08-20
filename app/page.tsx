@@ -12,6 +12,7 @@ import Rose from './component/Rose';
 import './style/global.scss';
 import './style/index.scss';
 
+
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
 
