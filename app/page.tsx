@@ -39,6 +39,9 @@ export default function Home() {
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center">
+      <div style={{ width: 0, height: 0, overflow: 'hidden' }}>
+        <img src="/assets/logo.png" alt="logo" />
+      </div>
       {loaded && <div id="container">
         <div className="scroller">
           <Area1 />
