@@ -3,7 +3,7 @@ import './globals.css';
 
 const title = '周青云❤️田柳的婚礼邀请';
 const description = '2025.10.3南县滨江大酒店富贵厅，诚挚邀请您参加我们的婚礼';
-const image = 'https://marry-app-ruddy.vercel.app/assets/logo.png';
+const image = '/assets/logo.png';
 
 export const metadata = {
   title,
