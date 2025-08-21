@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "next dev --turbopack -H 0.0.0.0 --port 8080",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 8820",
     "lint": "next lint",
     "restart": "next build && pm2 restart marry-app"
   },
